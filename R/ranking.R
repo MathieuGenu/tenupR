@@ -4,7 +4,7 @@
 #' of ranking for ranking manipulation. Rankings goes from "NC" to "-15" with
 #' "NC" corresponding to the first level of the factor and "-15" to the last
 #'
-#' @param x a character corresponding to a ranking. Ranking must be in the
+#' @param rank a character corresponding to a ranking. Ranking must be in the
 #' form of \itemize{
 #' \item "NC" for players without ranking
 #' \item "x" like "15", "0" or "-15"
@@ -25,12 +25,13 @@
 #' rank2 <- as_ranking("15/5")
 #' as.numeric(rank2) - as.numeric(rank1)
 #'
-as_ranking <- function(x) {
+as_ranking <- function(rank) {
   levels <- c("NC","40","30/5","30/4","30/3","30/2","30/1",
               "30","15/5","15/4","15/3","15/2","15/1",
               "15","5/6","4/6","3/6","2/6","1/6","0",
               "-2/6","-4/6","-15")
-  stopifnot("x must be a correct ranking" = x %in% levels)
-  fac_x <- factor(x,levels = levels)
+  stopifnot("'rank' must be a character string" = class(rank) == "character")
+  stopifnot("'rank' must be a correct ranking" = rank %in% levels)
+  fac_x <- factor(rank,levels = levels)
   return(fac_x)
 }

@@ -4,10 +4,10 @@
 \alias{as_ranking}
 \title{Set a character as a ranking factor}
 \usage{
-as_ranking(x)
+as_ranking(rank)
 }
 \arguments{
-\item{x}{a character corresponding to a ranking. Ranking must be in the
+\item{rank}{a character corresponding to a ranking. Ranking must be in the
 form of \itemize{
 \item "NC" for players without ranking
 \item "x" like "15", "0" or "-15"
