@@ -4,6 +4,8 @@
 # tenupR
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/MathieuGenu/tenupR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/MathieuGenu/tenupR/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 {tenupR} is an R package allowing to compute ranking of a tennis player,
