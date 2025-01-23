@@ -24,7 +24,6 @@
 #' rank1 <- as_ranking("30/3")
 #' rank2 <- as_ranking("15/5")
 #' as.numeric(rank2) - as.numeric(rank1)
-#'
 as_ranking <- function(rank) {
   levels <- c("NC","40","30/5","30/4","30/3","30/2","30/1",
               "30","15/5","15/4","15/3","15/2","15/1",

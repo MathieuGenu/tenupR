@@ -26,5 +26,5 @@ library(tenupR)
 match_comptabilise(palmares,as_ranking("15/5"),"01-25")
 }
 \seealso{
-\link{palmares,bareme}
+\link{palmares}, \link{bareme}
 }

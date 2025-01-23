@@ -32,5 +32,4 @@ rank
 rank1 <- as_ranking("30/3")
 rank2 <- as_ranking("15/5")
 as.numeric(rank2) - as.numeric(rank1)
-
 }

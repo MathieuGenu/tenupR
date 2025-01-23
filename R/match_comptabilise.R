@@ -10,7 +10,7 @@
 #'
 #' @return number of additional matches
 #' @export
-#' @seealso [palmares,bareme]
+#' @seealso [palmares], [bareme]
 #' @importFrom lubridate my dmy days
 #' @examples
 #' library(tenupR)
