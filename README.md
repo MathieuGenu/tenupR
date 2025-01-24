@@ -1,11 +1,12 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# tenupR
+# tenupR <img src="man/figures/hex_logo.png" align="right" width="120" />
 
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/MathieuGenu/tenupR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/MathieuGenu/tenupR/actions/workflows/R-CMD-check.yaml)
+
 <!-- badges: end -->
 
 {tenupR} is an R package allowing to compute ranking of a tennis player,
