@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# tenupR <img src="man/figures/hex_logo.png" align="right" width="120" />
+# tenupR <img src="man/Figures/hex_logo.png" align="right" width="120" />
 
 <!-- badges: start -->
 
