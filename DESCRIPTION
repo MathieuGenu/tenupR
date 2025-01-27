@@ -11,7 +11,9 @@ License: MIT + file LICENSE
 Depends: 
     R (>= 2.10)
 Imports: 
-    lubridate
+    lubridate,
+    utils,
+    XML
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3

@@ -27,17 +27,23 @@ install.packages("remotes")
 remotes::install_github("MathieuGenu/tenupR")
 ```
 
+## Get your match records from [tenup](https://tenup.fft.fr/)
+
+IN PREP. :construction:
+
 ## Example
 
 IN PREP. :construction:
 
 ## TO DO
 
-- [ ] Hex logo
+- [x] Hex logo
 - [ ] Add the fact that you should at least win against one opponent of
   the same / over ranking you are testing
 - [ ] Down-ranking occurs once per year-on-year if not enough points to
   validate current ranking
 - [ ] in 2nd series (negative an positive), if V-E-2I-5G \<= -100
   down-ranking
-- \[ \]
+- [ ] tutorial in readme
+- [ ] create vignettes
+- [ ] Add NEWS file

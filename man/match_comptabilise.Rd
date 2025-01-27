@@ -9,7 +9,7 @@ match_comptabilise(df, echelon, date_sim)
 \arguments{
 \item{df}{data.frame of matches record (as \link{palmares})}
 
-\item{echelon}{ranking}
+\item{echelon}{ranking to test}
 
 \item{date_sim}{Date of the simulation ranking to test in the format "mm-yy"}
 }

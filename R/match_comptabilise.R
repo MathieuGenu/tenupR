@@ -5,7 +5,7 @@
 #' dataset to get the correct index to give extra matches
 #'
 #' @param df data.frame of matches record (as [palmares])
-#' @param echelon ranking
+#' @param echelon ranking to test
 #' @param date_sim Date of the simulation ranking to test in the format "mm-yy"
 #'
 #' @return number of additional matches

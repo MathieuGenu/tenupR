@@ -5,6 +5,7 @@
 #' available [here](https://tenup.fft.fr/content/classement-tennis-bareme-et-normes)
 #'
 #' @param diff difference of rankings as a negative or positive integer.
+#'  Difference must be in this order : opponent ranking - player of interest ranking
 #'
 #' @return number of points earned from the difference of ranking
 #' @export

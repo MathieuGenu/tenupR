@@ -9,7 +9,7 @@ palmares <- structure(
            "Joueur Anonyme", "Joueur Anonyme", "Joueur Anonyme", "Joueur Anonyme",
            "Joueur Anonyme", "Joueur Anonyme", "Joueur Anonyme", "Joueur Anonyme",
            "Joueur Anonyme"),
-       ne_le = c("_", "_", "_", "_", "_", "_", "_",
+       ne_en = c("_", "_", "_", "_", "_", "_", "_",
                  "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_",
                  "_", "_", "_"),
        classement = structure(c(7L, 9L, 9L, 9L, 8L,

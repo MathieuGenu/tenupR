@@ -7,7 +7,8 @@
 points(diff)
 }
 \arguments{
-\item{diff}{difference of rankings as a negative or positive integer.}
+\item{diff}{difference of rankings as a negative or positive integer.
+Difference must be in this order : opponent ranking - player of interest ranking}
 }
 \value{
 number of points earned from the difference of ranking
