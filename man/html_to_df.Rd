@@ -14,12 +14,12 @@ data.frame of match records in adequate format for ranking simulation
 }
 \description{
 After extracting a palmares of tennis matches on \href{https://tenup.fft.fr}{tenup}
-(to do so, see \link{tutorial}), this function allows to convert your html match
+, this function allows to convert your html match
 records into a data.frame
 }
 \examples{
 library(tenupR)
-file <- list.files(system.file("extdata", package = "tenupR"),full.names = T)
+file <- list.files(system.file("extdata", package = "tenupR"),full.names = TRUE)
 df <- html_to_df(file)
 head(df)
 }

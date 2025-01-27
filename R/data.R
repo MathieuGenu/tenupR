@@ -7,7 +7,7 @@
 #' @format A data frame with 23 rows and 9 columns
 #' \describe{
 #'   \item{adversaire}{Name of the opponent}
-#'   \item{ne_le}{Date of birth of the opponent}
+#'   \item{ne_en}{Date of birth of the opponent}
 #'   \item{classement}{Opponent ranking}
 #'   \item{issue}{Outcome of the match, stated as "V" for wins and "D" for loses}
 #'   \item{score}{Final score of the match (WO)}

@@ -1,7 +1,7 @@
 #' Convert html palmares extraction into a data frame
 #'
 #' After extracting a palmares of tennis matches on [tenup](https://tenup.fft.fr)
-#' (to do so, see [tutorial]), this function allows to convert your html match
+#' , this function allows to convert your html match
 #' records into a data.frame
 #'
 #' @param file html file to convert
@@ -12,7 +12,7 @@
 #'
 #' @examples
 #' library(tenupR)
-#' file <- list.files(system.file("extdata", package = "tenupR"),full.names = T)
+#' file <- list.files(system.file("extdata", package = "tenupR"),full.names = TRUE)
 #' df <- html_to_df(file)
 #' head(df)
 html_to_df <- function(file) {
@@ -21,8 +21,8 @@ html_to_df <- function(file) {
   colnames(tab) <- trimws(colnames(tab))
 
   names(tab)[names(tab) %in% c(
-    "Adversaire(s)", "Né(e) en", "Classement*", "V/D", "Score",
-    "Compétition", "Coef.", "Joué le", "Pris en compte jusqu'à**"
+    "Adversaire(s)", "N\u00e9(e) en", "Classement*", "V/D", "Score",
+    "Comp\u00e9tition", "Coef.", "Jou\u00e9 le", "Pris en compte jusqu'\u00e0**"
   )]<-c("adversaire","ne_en","classement","issue","score",
         "competition","coef","joue_le","date_val")
 
