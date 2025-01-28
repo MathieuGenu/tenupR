@@ -42,6 +42,7 @@ IN PREP. :construction:
   the same / over ranking you are testing
 - [ ] Down-ranking occurs once per year-on-year if not enough points to
   validate current ranking
+- [ ] Add bonus for no loses (50pts)
 - [ ] in 2nd series (negative an positive), if V-E-2I-5G \<= -100
   down-ranking
 - [ ] tutorial in readme

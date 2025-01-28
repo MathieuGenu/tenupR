@@ -31,7 +31,7 @@ match_comptabilise <- function(df,echelon, date_sim) {
   E <- sum(E)
 
   I <- subset(df,
-              as.numeric(classement) < as.numeric(echelon) &
+              as.numeric(classement) == (as.numeric(echelon)-1) &
                 issue == "D" & score != "WO",
               select = coef,
               drop = T
