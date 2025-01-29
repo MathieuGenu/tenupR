@@ -19,28 +19,22 @@
 #' diff <- as.numeric(his_ranking) - as.numeric(my_ranking)
 #' points(diff)
 points <- function(diff) {
+  stopifnot("'diff' must be numeric" = is.numeric(diff))
   stopifnot(
     "'diff' must be a positive or negative integer" = {round(abs(diff)) == abs(diff)}
   )
-  if(diff == 0) {
-    return(60)
+  tab_points <- data.frame(
+    difference = c(0,1,2,-1,-2,-3,-4),
+    points = c(60,90,120,30,20,15,0)
+  )
+  if(diff > 2) {
+    res <- 120
   }
-  if(diff == 1) {
-    return(90)
+  if(diff < -4) {
+    res <- 0
   }
-  if(diff >= 2) {
-    return(120)
+  if(diff <= 2 & diff >= -4) {
+    res <- subset(tab_points,difference == diff,select = points, drop = TRUE)
   }
-  if(diff == -1) {
-    return(30)
-  }
-  if(diff == -2) {
-    return(20)
-  }
-  if(diff == -3) {
-    return(15)
-  }
-  if(diff <= -4) {
-    return(0)
-  }
+  return(res)
 }

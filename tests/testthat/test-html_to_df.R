@@ -4,8 +4,7 @@ test_that("Correct output from html_to_df()", {
   )
   expect_equal(class(df), "data.frame")
   expect_named(df,c(c("adversaire","ne_en","classement","issue","score",
-                      "competition","coef","joue_le","date_val")))
-  expect_equal(class(df$classement),"factor")
+                      "competition","coef","joue_le","date_val","match_type")))
 })
 
 test_that("Gives error when wrong input is given",{

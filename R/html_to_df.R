@@ -28,7 +28,16 @@ html_to_df <- function(file) {
 
   tab$coef <- as.numeric(tab$coef)
 
-  tab$classement <- as_ranking(tab$classement)
+  match_type <- function(x) {
+    if(grepl("^(19|20)\\d{2}$",x)|grepl("^_$",x)) {
+      res <- "single"
+    } else {
+      res <- "double"
+    }
+    return(res)
+  }
+
+  tab$match_type <- lapply(tab$ne_en,match_type)
 
   return(tab)
 }

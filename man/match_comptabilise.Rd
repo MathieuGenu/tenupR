@@ -9,9 +9,10 @@ match_comptabilise(df, echelon, date_sim)
 \arguments{
 \item{df}{data.frame of matches record (as \link{palmares})}
 
-\item{echelon}{ranking to test}
+\item{echelon}{ranking to test. Output of \code{\link[=as_ranking]{as_ranking()}}}
 
-\item{date_sim}{Date of the simulation ranking to test in the format "mm-yy"}
+\item{date_sim}{Date of the simulation ranking to test in the format "mm-yy"
+or "mm-yyyy" (ex: "12-25" or "12-2025" for december 2025)}
 }
 \value{
 number of additional matches
@@ -26,5 +27,5 @@ library(tenupR)
 match_comptabilise(palmares,as_ranking("15/5"),"01-25")
 }
 \seealso{
-\link{palmares}, \link{bareme}
+\link{palmares}, \link{bareme}, \link{as_ranking}
 }

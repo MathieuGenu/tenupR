@@ -5,7 +5,7 @@
 \alias{palmares}
 \title{Example of record data from a player needed to compute ranking}
 \format{
-A data frame with 23 rows and 9 columns
+A data frame with 23 rows and 10 columns
 \describe{
 \item{adversaire}{Name of the opponent}
 \item{ne_en}{Date of birth of the opponent}
@@ -16,6 +16,7 @@ A data frame with 23 rows and 9 columns
 \item{coef}{coeficient applied on the match}
 \item{joue_le}{Date of the match}
 \item{date_val}{Date until the match will be counted in the ranking process}
+\item{match_type}{type of match(single or double)}
 }
 }
 \usage{

@@ -4,7 +4,7 @@
 #' on [https://tenup.fft.fr/](https://tenup.fft.fr/) requiring a tenup account.
 #' All of these information are used to compute ranking of a player.
 #'
-#' @format A data frame with 23 rows and 9 columns
+#' @format A data frame with 23 rows and 10 columns
 #' \describe{
 #'   \item{adversaire}{Name of the opponent}
 #'   \item{ne_en}{Date of birth of the opponent}
@@ -15,6 +15,7 @@
 #'   \item{coef}{coeficient applied on the match}
 #'   \item{joue_le}{Date of the match}
 #'   \item{date_val}{Date until the match will be counted in the ranking process}
+#'   \item{match_type}{type of match(single or double)}
 #' }
 #'
 #' @references

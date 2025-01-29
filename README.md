@@ -38,6 +38,8 @@ IN PREP. :construction:
 ## TO DO
 
 - [x] Hex logo
+- [ ] Handle doubles matches while importing + bonus for double wins
+- [x] V-E-2I-5G doesn’t count coef
 - [ ] Add the fact that you should at least win against one opponent of
   the same / over ranking you are testing
 - [ ] Down-ranking occurs once per year-on-year if not enough points to
